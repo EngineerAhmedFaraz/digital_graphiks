@@ -1,0 +1,15 @@
+.stepCard_wrapper {
+  width: 100%;
+  background: ghostwhite;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+@media (max-width: 1024px) {
+  .stepCard_wrapper {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,110 @@
+.navbar {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--nav-bg-color);
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid var(--nav-border-color);
+}
+
+.nav_item {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav_list {
+  font-size: 14px;
+  line-height: 16.1px;
+  font-weight: 400;
+  font-family: var(--family-font2);
+  color: var(--nav-font-color);
+  cursor: pointer;
+}
+
+.nav_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: black;
+}
+.navImgICon {
+  cursor: pointer;
+}
+
+.navImgGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav_btn {
+  width: 40px;
+  height: 30px;
+  padding: 3px 12px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: black;
+}
+
+.title2 {
+  font-size: 36px;
+  line-height: 66px;
+  font-weight: 400;
+  color: var(--nav-font-color);
+  font-family: var(--family-font2);
+}
+.hamburgerMenu {
+  display: none;
+}
+
+/* ====================================================== */
+
+/* Responsive Design */
+
+/* Break-Point For Mobile 580px */
+@media (max-width: 580px) {
+}
+
+/* Break-Point For Tablet 768px */
+@media (max-width: 768px) {
+  .nav_item {
+    display: none;
+  }
+  .navImgGroup {
+    display: none;
+  }
+  .hamburgerMenu {
+    display: flex;
+    color: #000;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .brandLogo {
+    width: 80%;
+  }
+}
+
+/* Break-Point For Laptop 992px */
+@media (max-width: 992px) {
+  .nav_item {
+    gap: 0.5rem;
+  }
+}
+
+/* Break-Point For Laptop 1024px */
+@media (max-width: 1024px) {
+  .nav_item {
+    gap: 1rem;
+  }
+}
+
+/* Break-Point For Laptop 1200px */
+@media (max-width: 1200px) {
+}

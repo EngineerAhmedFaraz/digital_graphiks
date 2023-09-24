@@ -1,0 +1,55 @@
+.card4_wrapper {
+  width: 100%;
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card4_title {
+  width: 100%;
+  max-width: 199px;
+  font-size: 36px;
+  line-height: 66px;
+  font-weight: 400;
+  font-family: var(--family-font2);
+  letter-spacing: 0.5px;
+  color: #111111;
+}
+
+.Card4_img {
+  width: 270px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff3f6;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.Card4_img:hover {
+  background-color: var(--btn-hover-bg);
+}
+
+.card4_subtitle {
+  width: 100%;
+  max-width: 181px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  font-family: var(--family-font1);
+  color: #111111;
+}
+
+/* responsive */
+@media (max-width: 580px) {
+  .card4_title {
+    width: 100%;
+    font-size: 25px;
+    line-height: 56px;
+    text-align: center;
+  }
+}

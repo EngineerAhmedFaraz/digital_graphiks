@@ -1,0 +1,81 @@
+.springCard_wrapper {
+  width: 100%;
+  background-color: #fff3f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 0;
+}
+.springCard_section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.springCard_title {
+  font-size: 36px;
+  line-height: 66px;
+  font-weight: 400;
+  font-family: var(--family-font2);
+  color: #111111;
+}
+
+.springCard_subtitle {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  font-family: var(--family-font1);
+  color: #111111;
+}
+
+.springCard_btn {
+  width: 133px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  border: 0;
+  outline: none;
+  font-family: var(--family-font1);
+  background-color: #282830;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.springCard_btn:hover {
+  background-color: var(--btn-hover-bg);
+}
+
+/* Responsive */
+@media (max-width: 580px) {
+  .springCard_wrapper {
+    gap: 30px;
+  }
+  .springCard_section {
+    gap: 30px;
+  }
+  .springCard_Img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .springCard_wrapper {
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+  }
+  .springCard_section {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .springCard_btn {
+    margin-bottom: 10px;
+  }
+}

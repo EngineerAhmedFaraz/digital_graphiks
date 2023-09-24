@@ -1,0 +1,50 @@
+.card1 {
+  width: 100%;
+  max-width: 270px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.inner_card1 {
+  width: 100%;
+  height: 270px;
+  background-color: #fff3f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.inner_card1:hover {
+  background-color: var(--bg-color);
+}
+
+.seller_img {
+  object-fit: cover;
+}
+
+.card1_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.disc {
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  font-family: var(--family-font2);
+  color: var(--nav-font-color);
+}
+.mini-title {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: var(--family-font1);
+  color: var(--nav-font-color);
+}
