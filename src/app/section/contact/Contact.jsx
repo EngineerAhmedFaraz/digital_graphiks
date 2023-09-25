@@ -31,7 +31,11 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <Image src={contactImg} className={styles.contactImg} />
+          <Image
+            src={contactImg}
+            className={styles.contactImg}
+            alt="contact/img"
+          />
         </div>
       </div>
     </>

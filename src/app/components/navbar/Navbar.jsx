@@ -24,7 +24,7 @@ const Navbar = () => {
         </ul>
 
         <div>
-          <Image src={brandImg} className={styles.brandLogo} />
+          <Image src={brandImg} className={styles.brandLogo} alt="brand/img" />
         </div>
         <div className={styles.nav_section}>
           <ul className={styles.nav_item}>
@@ -35,9 +35,21 @@ const Navbar = () => {
             ))}
           </ul>
           <div className={styles.navImgGroup}>
-            <Image src={navImg1} className={styles.navImgICon} />
-            <Image src={navImg2} className={styles.navImgICon} />
-            <Image src={navImg3} className={styles.navImgICon} />
+            <Image
+              src={navImg1}
+              className={styles.navImgICon}
+              alt="nav_img/icon"
+            />
+            <Image
+              src={navImg2}
+              className={styles.navImgICon}
+              alt="nav_img/icon"
+            />
+            <Image
+              src={navImg3}
+              className={styles.navImgICon}
+              alt="nav_img/icon"
+            />
           </div>
         </div>
         <GiHamburgerMenu className={styles.hamburgerMenu} />

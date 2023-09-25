@@ -17,7 +17,11 @@ const SpringCard = () => {
           </div>
           <Button title="SHOP NOW" className={styles.springCard_btn} />
         </div>
-        <Image src={springImg} className={styles.springCard_Img} />
+        <Image
+          src={springImg}
+          className={styles.springCard_Img}
+          alt="spring/img"
+        />
       </div>
     </>
   );

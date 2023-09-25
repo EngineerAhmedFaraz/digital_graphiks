@@ -18,7 +18,7 @@ const Hero1 = () => {
           <Button className={styles.hero_btn} title="SHOP NOW" />
         </div>
         <div>
-          <Image src={heroImg} className={styles.heroImage} />
+          <Image src={heroImg} className={styles.heroImage} alt="hero/img" />
         </div>
       </div>
     </>

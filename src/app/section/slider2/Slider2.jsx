@@ -12,7 +12,11 @@ const Slider2 = () => {
           <div className={styles.slider2_section}>
             <Card4 />
           </div>
-          <Image src={removeImg} className={styles.slider2_Img} />
+          <Image
+            src={removeImg}
+            className={styles.slider2_Img}
+            alt="remove/img"
+          />
         </div>
       </div>
     </>

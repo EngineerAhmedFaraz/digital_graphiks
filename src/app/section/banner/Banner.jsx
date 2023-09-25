@@ -10,7 +10,11 @@ const Banner = () => {
     <>
       <div className={styles.banner_wrapper}>
         <div className={styles.banner_container}>
-          <Image src={bannerImg} className={styles.bannerImage} />
+          <Image
+            src={bannerImg}
+            className={styles.bannerImage}
+            alt="banner/img"
+          />
           <div className={styles.banner_body}>
             <div className={styles.banner_section}>
               <span className={styles.mini_title}>RISE AND SHINE</span>
@@ -21,8 +25,12 @@ const Banner = () => {
         </div>
         <div className={styles.company_logo}>
           {companyLogo.map((item, i) => (
-            <div className={styles.company_box}>
-              <Image src={item.img} className={styles.company_img} />
+            <div key={i} className={styles.company_box}>
+              <Image
+                src={item.img}
+                className={styles.company_img}
+                alt="company/img"
+              />
             </div>
           ))}
         </div>

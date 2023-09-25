@@ -12,7 +12,11 @@ const Result = () => {
             <h2 className={styles.result_title}>Little effort, big results.</h2>
             <p className={styles.result_subtitle}>SHOP NOW</p>
           </div>
-          <Image src={resultImg} className={styles.result_img} />
+          <Image
+            src={resultImg}
+            className={styles.result_img}
+            alt="result/img"
+          />
         </div>
       </div>
     </>

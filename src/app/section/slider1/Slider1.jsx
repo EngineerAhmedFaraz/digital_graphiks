@@ -18,7 +18,7 @@ const Slider1 = () => {
             </p>
             <span className={styles.slider1_subtitle2}>Jane Doe, 2022</span>
           </div>
-          <Image src={testImg} className={styles.slider1_Img} />
+          <Image src={testImg} className={styles.slider1_Img} alt="test/img" />
         </div>
       </div>
     </>

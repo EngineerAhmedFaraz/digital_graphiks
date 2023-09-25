@@ -7,7 +7,7 @@ const Card1 = ({ item: { disc, mini_title, img } }) => {
     <>
       <div className={styles.card1}>
         <div className={styles.inner_card1}>
-          <Image src={img} className={styles.seller_img} />
+          <Image src={img} className={styles.seller_img} alt="seller/img" />
         </div>
         <div className={styles.card1_body}>
           <p className={styles.disc}>{disc}</p>

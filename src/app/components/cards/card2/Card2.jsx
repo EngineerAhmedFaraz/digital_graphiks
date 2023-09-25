@@ -8,7 +8,7 @@ const Card2 = ({ item: { icon, title, subTitle } }) => {
     <>
       <div className={styles.card2_wrapper}>
         <div className={styles.icon_card2}>
-          <Image src={icon} className={styles.Card2Img} />
+          <Image src={icon} className={styles.Card2Img} alt="icon/img" />
         </div>
         <h2 className={styles.card2_title}>{title}</h2>
         <Button title={subTitle} className={styles.btn_card2} />
