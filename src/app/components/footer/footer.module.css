@@ -93,6 +93,8 @@
   border: 1px solid #0000004d;
   outline: none;
   display: flex;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .footer_input {
@@ -109,7 +111,7 @@
 }
 
 .footer_SubBtn {
-  width: 50px;
+  width: 51px;
   height: 50px;
   border: 0;
   outline: none;

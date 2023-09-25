@@ -1,15 +1,24 @@
 .stepCard_wrapper {
   width: 100%;
-  background: ghostwhite;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  padding: 20px 0;
+}
+
+@media (max-width: 580px) {
+  .stepCard_wrapper {
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 20px;
+    padding: 20px;
+  }
 }
 
 @media (max-width: 1024px) {
   .stepCard_wrapper {
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    padding: 20px;
   }
 }
