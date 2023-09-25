@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "@/app/section/contact/contact.module.css";
+import styles from "../contact/contact.module.css";
 import Image from "next/image";
 import contactImg from "../../assests/img/contact-img.png";
-import contact_loc from "../../assests/img/contact_loc.svg";
 import contact_call from "../../assests/img/contact_call.svg";
+import contact_loc1 from "../../assests/img/contact_Loc.svg";
 
 const Contact = () => {
   return (
@@ -22,11 +22,11 @@ const Contact = () => {
             </div>
             <div className={styles.contact_miniBox}>
               <div className={styles.contact_miniBox1}>
-                <Image src={contact_loc} />
+                <Image src={contact_loc1} alt="location/img" />
                 <p className={styles.contact_minititle1}>Direction</p>
               </div>
               <div className={styles.contact_miniBox2}>
-                <Image src={contact_call} />
+                <Image src={contact_call} alt="call/img" />
                 <p className={styles.contact_minititle1}>+971 123 432 2322</p>
               </div>
             </div>
