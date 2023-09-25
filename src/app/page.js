@@ -15,7 +15,7 @@ import Result from "./section/result/Result";
 const Home = () => {
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <Hero1 />
       <SellerCard />
       <Banner />
@@ -24,9 +24,9 @@ const Home = () => {
       <Contact />
       <Slider1 />
       <SpringCard />
-      <Blog /> */}
+      <Blog />
       <StepCard />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
